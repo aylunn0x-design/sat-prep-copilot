@@ -1,26 +1,40 @@
 # SAT Prep Copilot
 
-AI-assisted SAT study platform that helps students identify weak topics, practice with feedback, and track improvement.
+AI-assisted SAT prep project focused on weakness tracking, structured practice, and feedback loops.
 
-## v1 Scope
-- Question sets by topic (Math, Reading, Writing)
-- Answer checking with explanations
-- Weakness dashboard
-- Daily study streak
+## Goal
+Build a study tool that helps students:
+- identify weak topics fast
+- practice with structure
+- get feedback and explanations
+- track progress over time
 
-## Stack (planned)
+## Planned v1
+- topic-based practice sets
+- answer checking + explanation flow
+- weakness tracking dashboard
+- daily study streak / consistency system
+- simple progress analytics
+
+## Intended stack
 - Frontend: Next.js
-- Backend: Node/Express
-- DB: PostgreSQL
-- AI: provider API for explanations
+- Backend: Node.js / Express or Fastify
+- Database: PostgreSQL
+- AI: explanation / feedback provider API
 
-## Why this project
-I’m building this both for real student impact and as a flagship engineering project for my CS portfolio.
+## Why this exists
+This is both:
+- a real product idea for students
+- a strong portfolio project for CS admissions and future internships
 
 ## Roadmap
-- [ ] Project setup
-- [ ] Auth + user profile
-- [ ] Question bank schema
-- [ ] Practice mode
-- [ ] Analytics dashboard
-- [ ] Deploy MVP
+- [ ] project setup
+- [ ] auth + student profile
+- [ ] question bank schema
+- [ ] practice mode
+- [ ] weakness scoring logic
+- [ ] analytics dashboard
+- [ ] MVP deploy
+
+## Build notes
+Initial public scaffold. More product, UX, and architecture work will be added over time.
