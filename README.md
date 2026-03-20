@@ -27,6 +27,10 @@ This is both:
 - a real product idea for students
 - a strong portfolio project for CS admissions and future internships
 
+## Docs
+- [Product Spec](./docs/product-spec.md)
+- [Roadmap](./docs/roadmap.md)
+
 ## Roadmap
 - [ ] project setup
 - [ ] auth + student profile
