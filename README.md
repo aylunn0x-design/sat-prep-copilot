@@ -30,6 +30,8 @@ This is both:
 ## Docs
 - [Product Spec](./docs/product-spec.md)
 - [Roadmap](./docs/roadmap.md)
+- [Draft Data Model](./docs/db-schema.md)
+- [UI Flow](./docs/ui-flow.md)
 
 ## Roadmap
 - [ ] project setup
