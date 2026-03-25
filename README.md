@@ -32,6 +32,16 @@ This is both:
 - [Roadmap](./docs/roadmap.md)
 - [Draft Data Model](./docs/db-schema.md)
 - [UI Flow](./docs/ui-flow.md)
+- [MVP Checklist](./docs/mvp-checklist.md)
+
+## Starter code
+- `src/types.ts` — core app types
+- `src/data/sampleQuestions.ts` — sample SAT-style data
+- `src/data/sampleAttempts.ts` — sample student attempt history
+- `src/lib/scoreWeakness.ts` — weakness scoring logic
+- `src/lib/getRecommendedTopics.ts` — recommendation helper
+- `src/lib/summarizeAttempts.ts` — quick stats helper
+- `src/demo.ts` — tiny runnable demo flow
 
 ## Roadmap
 - [ ] project setup
