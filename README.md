@@ -42,5 +42,11 @@ This is both:
 - [ ] analytics dashboard
 - [ ] MVP deploy
 
+## Starter code
+- `src/types.ts` — core app types
+- `src/data/sampleQuestions.ts` — sample SAT-style data
+- `src/lib/scoreWeakness.ts` — first-pass weakness scoring logic
+- `src/index.ts` — tiny entry file for local testing
+
 ## Build notes
 Initial public scaffold. More product, UX, and architecture work will be added over time.
