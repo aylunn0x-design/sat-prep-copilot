@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "check": "tsc --noEmit -p tsconfig.json",
-    "demo": "node dist/demo.js"
+    "demo": "node dist/demo.js",
+    "demo:practice": "node dist/demoPracticeFlow.js"
   },
   "devDependencies": {
     "typescript": "^5.7.3"

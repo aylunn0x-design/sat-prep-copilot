@@ -41,7 +41,18 @@ This is both:
 - `src/lib/scoreWeakness.ts` — weakness scoring logic
 - `src/lib/getRecommendedTopics.ts` — recommendation helper
 - `src/lib/summarizeAttempts.ts` — quick stats helper
-- `src/demo.ts` — tiny runnable demo flow
+- `src/lib/createPracticeSet.ts` — generate a weak-topic practice set
+- `src/lib/tagMistake.ts` — normalize mistake tags
+- `src/demo.ts` — tiny runnable summary flow
+- `src/demoPracticeFlow.ts` — recommendation → practice flow demo
+
+## Quick run
+```bash
+npm install
+npm run build
+npm run demo
+npm run demo:practice
+```
 
 ## Roadmap
 - [ ] project setup
@@ -51,12 +62,6 @@ This is both:
 - [ ] weakness scoring logic
 - [ ] analytics dashboard
 - [ ] MVP deploy
-
-## Starter code
-- `src/types.ts` — core app types
-- `src/data/sampleQuestions.ts` — sample SAT-style data
-- `src/lib/scoreWeakness.ts` — first-pass weakness scoring logic
-- `src/index.ts` — tiny entry file for local testing
 
 ## Build notes
 Initial public scaffold. More product, UX, and architecture work will be added over time.
