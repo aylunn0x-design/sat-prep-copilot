@@ -43,8 +43,10 @@ This is both:
 - `src/lib/summarizeAttempts.ts` — quick stats helper
 - `src/lib/createPracticeSet.ts` — generate a weak-topic practice set
 - `src/lib/tagMistake.ts` — normalize mistake tags
+- `src/lib/generateStudyPlan.ts` — turn weakness scores into next-step study guidance
 - `src/demo.ts` — tiny runnable summary flow
 - `src/demoPracticeFlow.ts` — recommendation → practice flow demo
+- `src/demoStudyPlan.ts` — weakness → study plan demo
 
 ## Quick run
 ```bash
@@ -52,6 +54,7 @@ npm install
 npm run build
 npm run demo
 npm run demo:practice
+npm run demo:plan
 ```
 
 ## Roadmap
